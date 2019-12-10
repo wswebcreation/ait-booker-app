@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'bookerApp' do
-  # Pods for bookerApp
+target 'AITBookerApp' do
+  # Pods for AITBookerApp
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -34,7 +34,7 @@ target 'bookerApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'bookerAppTests' do
+  target 'AITBookerAppTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -42,10 +42,10 @@ target 'bookerApp' do
   use_native_modules!
 end
 
-target 'bookerApp-tvOS' do
-  # Pods for bookerApp-tvOS
+target 'AITBookerApp-tvOS' do
+  # Pods for AITBookerApp-tvOS
 
-  target 'bookerApp-tvOSTests' do
+  target 'AITBookerApp-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

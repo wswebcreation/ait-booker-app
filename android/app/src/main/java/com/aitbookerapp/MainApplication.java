@@ -1,4 +1,4 @@
-package com.bookerapp;
+package com.aitbookerapp;
 
 import android.app.Application;
 import android.content.Context;

@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* bookerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bookerAppTests.m */; };
+		00E356F31AD99517003FC87E /* AITBookerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AITBookerAppTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2AD0F10D3A7883737DF9F139 /* libPods-bookerApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710B72A6070582AD2CF5AF3D /* libPods-bookerApp-tvOS.a */; };
+		2AD0F10D3A7883737DF9F139 /* libPods-AITBookerApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710B72A6070582AD2CF5AF3D /* libPods-AITBookerApp-tvOS.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* bookerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* bookerAppTests.m */; };
-		3B6224AC521A2D33C4BCE224 /* libPods-bookerApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7F715A429A09987DD0C49D /* libPods-bookerApp-tvOSTests.a */; };
-		C0652A09AA9AFC17AED21A37 /* libPods-bookerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F5B56E6024EA36C4EC4737 /* libPods-bookerApp.a */; };
-		D730A3E2909599D8611380DC /* libPods-bookerAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5399ECA1BE8AE7EA13C11586 /* libPods-bookerAppTests.a */; };
+		2DCD954D1E0B4F2C00145EB5 /* AITBookerAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AITBookerAppTests.m */; };
+		3B6224AC521A2D33C4BCE224 /* libPods-AITBookerApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A7F715A429A09987DD0C49D /* libPods-AITBookerApp-tvOSTests.a */; };
+		C0652A09AA9AFC17AED21A37 /* libPods-AITBookerApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F5B56E6024EA36C4EC4737 /* libPods-AITBookerApp.a */; };
+		D730A3E2909599D8611380DC /* libPods-AITBookerAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5399ECA1BE8AE7EA13C11586 /* libPods-AITBookerAppTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,43 +28,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = bookerApp;
+			remoteInfo = AITBookerApp;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "bookerApp-tvOS";
+			remoteInfo = "AITBookerApp-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* bookerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* AITBookerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AITBookerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* bookerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bookerAppTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* bookerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bookerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = bookerApp/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = bookerApp/AppDelegate.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* AITBookerAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AITBookerAppTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* AITBookerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AITBookerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AITBookerApp/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = AITBookerApp/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = bookerApp/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = bookerApp/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = bookerApp/main.m; sourceTree = "<group>"; };
-		203F9433487FC631EF06B26E /* Pods-bookerApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-bookerApp-tvOSTests/Pods-bookerApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D02E47B1E0B4A5D006451C7 /* bookerApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bookerApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* bookerApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bookerApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5399ECA1BE8AE7EA13C11586 /* libPods-bookerAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bookerAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57C6AFCF42575E78924829DE /* Pods-bookerApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-bookerApp-tvOS/Pods-bookerApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		710B72A6070582AD2CF5AF3D /* libPods-bookerApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bookerApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		82215BF1615D21C1B889EE1C /* Pods-bookerApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-bookerApp-tvOS/Pods-bookerApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		83623B77B262550FA6AB4470 /* Pods-bookerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerAppTests.release.xcconfig"; path = "Target Support Files/Pods-bookerAppTests/Pods-bookerAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		8A7F715A429A09987DD0C49D /* libPods-bookerApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bookerApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F86E7C679341F0146D9213E /* Pods-bookerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerApp.debug.xcconfig"; path = "Target Support Files/Pods-bookerApp/Pods-bookerApp.debug.xcconfig"; sourceTree = "<group>"; };
-		9599172BD2C2C7CB7E7C5BEB /* Pods-bookerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerApp.release.xcconfig"; path = "Target Support Files/Pods-bookerApp/Pods-bookerApp.release.xcconfig"; sourceTree = "<group>"; };
-		AA08876A3D0365D90E79B80F /* Pods-bookerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-bookerAppTests/Pods-bookerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D9F5B56E6024EA36C4EC4737 /* libPods-bookerApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-bookerApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9177B1BC54A6BA47942CE33 /* Pods-bookerApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookerApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-bookerApp-tvOSTests/Pods-bookerApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = AITBookerApp/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AITBookerApp/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AITBookerApp/main.m; sourceTree = "<group>"; };
+		203F9433487FC631EF06B26E /* Pods-AITBookerApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-AITBookerApp-tvOSTests/Pods-AITBookerApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* AITBookerApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AITBookerApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* AITBookerApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AITBookerApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5399ECA1BE8AE7EA13C11586 /* libPods-AITBookerAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AITBookerAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C6AFCF42575E78924829DE /* Pods-AITBookerApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-AITBookerApp-tvOS/Pods-AITBookerApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		710B72A6070582AD2CF5AF3D /* libPods-AITBookerApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AITBookerApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82215BF1615D21C1B889EE1C /* Pods-AITBookerApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-AITBookerApp-tvOS/Pods-AITBookerApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		83623B77B262550FA6AB4470 /* Pods-AITBookerAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerAppTests.release.xcconfig"; path = "Target Support Files/Pods-AITBookerAppTests/Pods-AITBookerAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8A7F715A429A09987DD0C49D /* libPods-AITBookerApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AITBookerApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F86E7C679341F0146D9213E /* Pods-AITBookerApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerApp.debug.xcconfig"; path = "Target Support Files/Pods-AITBookerApp/Pods-AITBookerApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9599172BD2C2C7CB7E7C5BEB /* Pods-AITBookerApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerApp.release.xcconfig"; path = "Target Support Files/Pods-AITBookerApp/Pods-AITBookerApp.release.xcconfig"; sourceTree = "<group>"; };
+		AA08876A3D0365D90E79B80F /* Pods-AITBookerAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AITBookerAppTests/Pods-AITBookerAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F5B56E6024EA36C4EC4737 /* libPods-AITBookerApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AITBookerApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9177B1BC54A6BA47942CE33 /* Pods-AITBookerApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AITBookerApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-AITBookerApp-tvOSTests/Pods-AITBookerApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D730A3E2909599D8611380DC /* libPods-bookerAppTests.a in Frameworks */,
+				D730A3E2909599D8611380DC /* libPods-AITBookerAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0652A09AA9AFC17AED21A37 /* libPods-bookerApp.a in Frameworks */,
+				C0652A09AA9AFC17AED21A37 /* libPods-AITBookerApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD0F10D3A7883737DF9F139 /* libPods-bookerApp-tvOS.a in Frameworks */,
+				2AD0F10D3A7883737DF9F139 /* libPods-AITBookerApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,20 +98,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B6224AC521A2D33C4BCE224 /* libPods-bookerApp-tvOSTests.a in Frameworks */,
+				3B6224AC521A2D33C4BCE224 /* libPods-AITBookerApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* bookerAppTests */ = {
+		00E356EF1AD99517003FC87E /* AITBookerAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* bookerAppTests.m */,
+				00E356F21AD99517003FC87E /* AITBookerAppTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = bookerAppTests;
+			path = AITBookerAppTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -122,7 +122,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* bookerApp */ = {
+		13B07FAE1A68108700A75B9A /* AITBookerApp */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -133,7 +133,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = bookerApp;
+			name = AITBookerApp;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -141,10 +141,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				D9F5B56E6024EA36C4EC4737 /* libPods-bookerApp.a */,
-				710B72A6070582AD2CF5AF3D /* libPods-bookerApp-tvOS.a */,
-				8A7F715A429A09987DD0C49D /* libPods-bookerApp-tvOSTests.a */,
-				5399ECA1BE8AE7EA13C11586 /* libPods-bookerAppTests.a */,
+				D9F5B56E6024EA36C4EC4737 /* libPods-AITBookerApp.a */,
+				710B72A6070582AD2CF5AF3D /* libPods-AITBookerApp-tvOS.a */,
+				8A7F715A429A09987DD0C49D /* libPods-AITBookerApp-tvOSTests.a */,
+				5399ECA1BE8AE7EA13C11586 /* libPods-AITBookerAppTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,14 +152,14 @@
 		7BDA33FB5811DF1AB8E2C529 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F86E7C679341F0146D9213E /* Pods-bookerApp.debug.xcconfig */,
-				9599172BD2C2C7CB7E7C5BEB /* Pods-bookerApp.release.xcconfig */,
-				57C6AFCF42575E78924829DE /* Pods-bookerApp-tvOS.debug.xcconfig */,
-				82215BF1615D21C1B889EE1C /* Pods-bookerApp-tvOS.release.xcconfig */,
-				203F9433487FC631EF06B26E /* Pods-bookerApp-tvOSTests.debug.xcconfig */,
-				E9177B1BC54A6BA47942CE33 /* Pods-bookerApp-tvOSTests.release.xcconfig */,
-				AA08876A3D0365D90E79B80F /* Pods-bookerAppTests.debug.xcconfig */,
-				83623B77B262550FA6AB4470 /* Pods-bookerAppTests.release.xcconfig */,
+				8F86E7C679341F0146D9213E /* Pods-AITBookerApp.debug.xcconfig */,
+				9599172BD2C2C7CB7E7C5BEB /* Pods-AITBookerApp.release.xcconfig */,
+				57C6AFCF42575E78924829DE /* Pods-AITBookerApp-tvOS.debug.xcconfig */,
+				82215BF1615D21C1B889EE1C /* Pods-AITBookerApp-tvOS.release.xcconfig */,
+				203F9433487FC631EF06B26E /* Pods-AITBookerApp-tvOSTests.debug.xcconfig */,
+				E9177B1BC54A6BA47942CE33 /* Pods-AITBookerApp-tvOSTests.release.xcconfig */,
+				AA08876A3D0365D90E79B80F /* Pods-AITBookerAppTests.debug.xcconfig */,
+				83623B77B262550FA6AB4470 /* Pods-AITBookerAppTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -175,9 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* bookerApp */,
+				13B07FAE1A68108700A75B9A /* AITBookerApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* bookerAppTests */,
+				00E356EF1AD99517003FC87E /* AITBookerAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				7BDA33FB5811DF1AB8E2C529 /* Pods */,
@@ -190,10 +190,10 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* bookerApp.app */,
-				00E356EE1AD99517003FC87E /* bookerAppTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* bookerApp-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* bookerApp-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* AITBookerApp.app */,
+				00E356EE1AD99517003FC87E /* AITBookerAppTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* AITBookerApp-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* AITBookerApp-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -201,9 +201,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* bookerAppTests */ = {
+		00E356ED1AD99517003FC87E /* AITBookerAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bookerAppTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AITBookerAppTests" */;
 			buildPhases = (
 				000301AA2CDC1EC1E5EDA996 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -215,14 +215,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = bookerAppTests;
-			productName = bookerAppTests;
-			productReference = 00E356EE1AD99517003FC87E /* bookerAppTests.xctest */;
+			name = AITBookerAppTests;
+			productName = AITBookerAppTests;
+			productReference = 00E356EE1AD99517003FC87E /* AITBookerAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* bookerApp */ = {
+		13B07F861A680F5B00A75B9A /* AITBookerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bookerApp" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AITBookerApp" */;
 			buildPhases = (
 				79CB3C095B0E95958833E1D3 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = bookerApp;
-			productName = bookerApp;
-			productReference = 13B07F961A680F5B00A75B9A /* bookerApp.app */;
+			name = AITBookerApp;
+			productName = AITBookerApp;
+			productReference = 13B07F961A680F5B00A75B9A /* AITBookerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* bookerApp-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* AITBookerApp-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "bookerApp-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AITBookerApp-tvOS" */;
 			buildPhases = (
 				3455FA837A0B0C9E610AB750 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -255,14 +255,14 @@
 			);
 			dependencies = (
 			);
-			name = "bookerApp-tvOS";
-			productName = "bookerApp-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* bookerApp-tvOS.app */;
+			name = "AITBookerApp-tvOS";
+			productName = "AITBookerApp-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* AITBookerApp-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* bookerApp-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* AITBookerApp-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "bookerApp-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AITBookerApp-tvOSTests" */;
 			buildPhases = (
 				9E6452124571C9E6035C129F /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -274,9 +274,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "bookerApp-tvOSTests";
-			productName = "bookerApp-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* bookerApp-tvOSTests.xctest */;
+			name = "AITBookerApp-tvOSTests";
+			productName = "AITBookerApp-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* AITBookerApp-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bookerApp" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AITBookerApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -316,10 +316,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* bookerApp */,
-				00E356ED1AD99517003FC87E /* bookerAppTests */,
-				2D02E47A1E0B4A5D006451C7 /* bookerApp-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* bookerApp-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* AITBookerApp */,
+				00E356ED1AD99517003FC87E /* AITBookerAppTests */,
+				2D02E47A1E0B4A5D006451C7 /* AITBookerApp-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* AITBookerApp-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -374,7 +374,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bookerAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AITBookerAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -424,7 +424,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bookerApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AITBookerApp-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bookerApp-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AITBookerApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bookerApp-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-AITBookerApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -520,7 +520,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* bookerAppTests.m in Sources */,
+				00E356F31AD99517003FC87E /* AITBookerAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +546,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* bookerAppTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* AITBookerAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,12 +555,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* bookerApp */;
+			target = 13B07F861A680F5B00A75B9A /* AITBookerApp */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* bookerApp-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* AITBookerApp-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -572,7 +572,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = bookerApp;
+			path = AITBookerApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -580,14 +580,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA08876A3D0365D90E79B80F /* Pods-bookerAppTests.debug.xcconfig */;
+			baseConfigurationReference = AA08876A3D0365D90E79B80F /* Pods-AITBookerAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = bookerAppTests/Info.plist;
+				INFOPLIST_FILE = AITBookerAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -597,17 +597,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bookerApp.app/bookerApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AITBookerApp.app/AITBookerApp";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83623B77B262550FA6AB4470 /* Pods-bookerAppTests.release.xcconfig */;
+			baseConfigurationReference = 83623B77B262550FA6AB4470 /* Pods-AITBookerAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = bookerAppTests/Info.plist;
+				INFOPLIST_FILE = AITBookerAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -617,18 +617,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bookerApp.app/bookerApp";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AITBookerApp.app/AITBookerApp";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F86E7C679341F0146D9213E /* Pods-bookerApp.debug.xcconfig */;
+			baseConfigurationReference = 8F86E7C679341F0146D9213E /* Pods-AITBookerApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				INFOPLIST_FILE = bookerApp/Info.plist;
+				INFOPLIST_FILE = AITBookerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -636,18 +636,18 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = bookerApp;
+				PRODUCT_NAME = AITBookerApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9599172BD2C2C7CB7E7C5BEB /* Pods-bookerApp.release.xcconfig */;
+			baseConfigurationReference = 9599172BD2C2C7CB7E7C5BEB /* Pods-AITBookerApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = bookerApp/Info.plist;
+				INFOPLIST_FILE = AITBookerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -655,14 +655,14 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = bookerApp;
+				PRODUCT_NAME = AITBookerApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57C6AFCF42575E78924829DE /* Pods-bookerApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 57C6AFCF42575E78924829DE /* Pods-AITBookerApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -673,14 +673,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "bookerApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "AITBookerApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.bookerApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AITBookerApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 82215BF1615D21C1B889EE1C /* Pods-bookerApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 82215BF1615D21C1B889EE1C /* Pods-AITBookerApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -701,14 +701,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "bookerApp-tvOS/Info.plist";
+				INFOPLIST_FILE = "AITBookerApp-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.bookerApp-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AITBookerApp-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 203F9433487FC631EF06B26E /* Pods-bookerApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 203F9433487FC631EF06B26E /* Pods-AITBookerApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -728,24 +728,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "bookerApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "AITBookerApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.bookerApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AITBookerApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bookerApp-tvOS.app/bookerApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AITBookerApp-tvOS.app/AITBookerApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E9177B1BC54A6BA47942CE33 /* Pods-bookerApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = E9177B1BC54A6BA47942CE33 /* Pods-AITBookerApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -755,17 +755,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "bookerApp-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "AITBookerApp-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.bookerApp-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.AITBookerApp-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bookerApp-tvOS.app/bookerApp-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AITBookerApp-tvOS.app/AITBookerApp-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -872,7 +872,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "bookerAppTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "AITBookerAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -881,7 +881,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "bookerApp" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "AITBookerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -890,7 +890,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "bookerApp-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AITBookerApp-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -899,7 +899,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "bookerApp-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "AITBookerApp-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -908,7 +908,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "bookerApp" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "AITBookerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
