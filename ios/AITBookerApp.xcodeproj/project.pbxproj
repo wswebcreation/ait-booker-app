@@ -161,7 +161,6 @@
 				AA08876A3D0365D90E79B80F /* Pods-AITBookerAppTests.debug.xcconfig */,
 				83623B77B262550FA6AB4470 /* Pods-AITBookerAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -308,6 +307,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
