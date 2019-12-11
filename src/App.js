@@ -16,13 +16,7 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
   return (
@@ -35,9 +29,7 @@ const App: () => React$Node = () => {
           <View style={styles.body}>
             <View style={styles.sectionContainer}>
               <Text style={styles.sectionTitle}>Curious?</Text>
-              <Text style={styles.sectionDescription}>
-                Me2 =)
-              </Text>
+              <Text style={styles.sectionDescription}>Me2 =)</Text>
             </View>
           </View>
         </ScrollView>
