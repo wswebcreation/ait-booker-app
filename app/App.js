@@ -8,15 +8,20 @@
 
 import React from 'react';
 import {StyleSheet, StatusBar} from 'react-native';
+import {PersistGate} from 'redux-persist/es/integration/react';
+import {Provider} from 'react-redux';
 
 import AppContainer from './config/router';
+import {persistor, store} from './store/store';
 
 const App: () => React$Node = () => {
   return (
-    <>
-      <StatusBar barStyle="dark-content" />
-      <AppContainer />
-    </>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <StatusBar barStyle="dark-content" />
+        <AppContainer />
+      </PersistGate>
+    </Provider>
   );
 };
 

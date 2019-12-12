@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
 import {View, Text, StyleSheet} from 'react-native';
 
-class Room extends Component {
+export default class Admin extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Room Screen</Text>
+        <Text style={styles.title}>Admin Screen</Text>
       </View>
     );
   }
 }
-
-export default Room;
 
 const styles = StyleSheet.create({
   container: {
