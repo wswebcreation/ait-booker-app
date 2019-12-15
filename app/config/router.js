@@ -10,7 +10,7 @@ import {createBottomTabNavigator} from 'react-navigation-tabs';
 const SCREENS = {
   ADMIN: 'Admin',
   HOME: 'Home',
-  LOCAL_AUTHENTICATION: 'localAuthentication',
+  LOCAL_AUTHENTICATION: 'Personal',
   ROOM: 'Room',
 };
 

@@ -1,32 +1,14 @@
 // Imports: Dependencies
-import AsyncStorage from '@react-native-community/async-storage';
 import {createStore, applyMiddleware} from 'redux';
-import {createLogger} from 'redux-logger';
-import {persistStore, persistReducer} from 'redux-persist';
+import thunk from 'redux-thunk';
+import logger from 'redux-logger';
+import {reducers} from './reducers';
 
-// Imports: Redux
-import {reducers} from './';
+const createStoreWithMiddleware = applyMiddleware(thunk, logger)(createStore);
+const rootReducer = (state, action) => {
+  // @TODO: If the user have successfully signed out and ended his/her session, then reset all state to remove cached data of the previous session
 
-// Middleware: Redux Persist Config
-const persistConfig = {
-  // Root?
-  key: 'root',
-  // Storage Method (React Native)
-  storage: AsyncStorage,
-  // Whitelist (Save Specific Reducers)
-  whitelist: ['authReducer'],
-  // Blacklist (Don't Save Specific Reducers)
-  blacklist: [''],
+  return reducers(state, action);
 };
 
-// Middleware: Redux Persist Persisted Reducer
-const persistedReducer = persistReducer(persistConfig, reducers);
-
-// Redux: Store
-const store = createStore(persistedReducer, applyMiddleware(createLogger()));
-
-// Middleware: Redux Persist Persister
-let persistor = persistStore(store);
-
-// Exports
-export {store, persistor};
+export const store = createStoreWithMiddleware(rootReducer);

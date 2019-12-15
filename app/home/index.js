@@ -3,13 +3,20 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import {withNavigation} from 'react-navigation';
 import Home from './components/Home';
+import {api} from '../config/api';
 
 function mapStateToProps(state) {
-  return {};
+  return {
+    branding: state.branding,
+  };
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators({}, dispatch);
+  return {
+    actions: {
+      fetchBranding: bindActionCreators(api.getBranding, dispatch),
+    },
+  };
 }
 
 export default connect(
