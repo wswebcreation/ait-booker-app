@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import {View} from 'react-native';
 import PropTypes from 'prop-types';
 import {ScrollView} from 'react-navigation';
 
@@ -11,10 +10,7 @@ export default class ScrollViewWithoutStatusBar extends Component {
 
   render() {
     const {children, style = {}} = this.props;
-    return (
-      <View>
-        <ScrollView style={style}>{children}</ScrollView>
-      </View>
-    );
+
+    return <ScrollView style={style}>{children}</ScrollView>;
   }
 }

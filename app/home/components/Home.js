@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Text, StyleSheet, View} from 'react-native';
+import {FlatList, Text, StyleSheet, View} from 'react-native';
 import PropTypes from 'prop-types';
 import {SCREENS} from '../../config/router';
 import ScrollViewWithStatusBar from '../../components/ScrollViewWithStatusBar';
@@ -40,7 +40,7 @@ export default class Home extends Component {
         roomPrice: PropTypes.number.isRequired,
         roomid: PropTypes.number.isRequired,
         type: PropTypes.string.isRequired,
-      }),
+      }).isRequired,
     ).isRequired,
   };
 
@@ -66,15 +66,17 @@ export default class Home extends Component {
             </View>
             {rooms && rooms.length > 0 ? (
               rooms.map(room => (
-                <RoomSummary
-                  description={room.description}
-                  image={room.image}
-                  key={room.id}
-                  onPress={() =>
-                    navigation.navigate(SCREENS.ROOM, {id: room.roomid})
-                  }
-                  type={room.type}
-                />
+                <React.Fragment key={room.roomid}>
+                  <RoomSummary
+                    description={room.description}
+                    image={room.image}
+                    onPress={() =>
+                      navigation.navigate(SCREENS.ROOM, {data: room})
+                    }
+                    price={room.roomPrice}
+                    type={room.type}
+                  />
+                </React.Fragment>
               ))
             ) : (
               <Text>Loading rooms.....</Text>
