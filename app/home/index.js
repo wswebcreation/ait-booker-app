@@ -8,6 +8,7 @@ import {api} from '../config/api';
 function mapStateToProps(state) {
   return {
     branding: state.branding,
+    rooms: state.rooms,
   };
 }
 
@@ -15,6 +16,7 @@ function mapDispatchToProps(dispatch) {
   return {
     actions: {
       fetchBranding: bindActionCreators(api.getBranding, dispatch),
+      fetchRooms: bindActionCreators(api.getRooms, dispatch),
     },
   };
 }

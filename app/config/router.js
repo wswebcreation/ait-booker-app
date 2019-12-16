@@ -17,7 +17,6 @@ const SCREENS = {
 const HomeStack = createStackNavigator(
   {
     [SCREENS.HOME]: {screen: Home},
-    [SCREENS.ROOM]: {screen: Room},
   },
   {
     initialRouteName: 'Home',
@@ -53,7 +52,7 @@ const localAuthenticationStack = createSwitchNavigator(
   },
 );
 
-const AppSwitchNavigator = createBottomTabNavigator(
+const AppSwitch = createBottomTabNavigator(
   {
     [SCREENS.HOME]: HomeStack,
     [SCREENS.LOCAL_AUTHENTICATION]: localAuthenticationStack,
@@ -63,7 +62,17 @@ const AppSwitchNavigator = createBottomTabNavigator(
   },
 );
 
-const AppContainer = createAppContainer(AppSwitchNavigator);
+const MainStack = createStackNavigator(
+  {
+    [SCREENS.HOME]: AppSwitch,
+    [SCREENS.ROOM]: {screen: Room},
+  },
+  {
+    headerMode: 'none',
+  },
+);
+
+const AppContainer = createAppContainer(MainStack);
 
 export {SCREENS};
 export default AppContainer;

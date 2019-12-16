@@ -4,7 +4,7 @@ import {Image, StyleSheet, Text, View} from 'react-native';
 import {WINDOW_WIDTH} from '../../config/constants';
 
 // @TODO: Current image is 2736x1511 => 1.81 ratio. Need to get better images and sizes
-const ration = 1.81;
+const ratio = 1.81;
 
 export default class HotelDescription extends Component {
   static propTypes = {
@@ -20,7 +20,7 @@ export default class HotelDescription extends Component {
         <View style={styles.logoContainer}>
           <Image
             style={{
-              height: WINDOW_WIDTH / ration,
+              height: WINDOW_WIDTH / ratio,
               width: WINDOW_WIDTH,
             }}
             source={{uri: logoUrl}}
@@ -43,9 +43,5 @@ const styles = StyleSheet.create({
   },
   text: {
     fontSize: 16,
-  },
-  title: {
-    fontSize: 22,
-    fontWeight: 'bold',
   },
 });

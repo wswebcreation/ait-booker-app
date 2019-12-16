@@ -1,5 +1,6 @@
 import {create} from 'apisauce';
 import {BrandingActions} from '../home/duck/actions';
+import {RoomActions} from '../room/duck/actions';
 
 const BASE_URL = 'https://automationintesting.online';
 const API_HEADERS = {
@@ -31,5 +32,8 @@ const request = (type, rest, action) => {
 export const api = {
   getBranding: () => {
     return request('get', 'branding', BrandingActions.fetchBranding);
+  },
+  getRooms: () => {
+    return request('get', 'room', RoomActions.fetchRooms);
   },
 };
